@@ -1,0 +1,11 @@
+.flex-container{
+    background: blue;
+    display: flex;
+    height: 400px;
+}
+.div-flex{
+    background: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+}
