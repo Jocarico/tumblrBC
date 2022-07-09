@@ -27,6 +27,9 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    
 }
 
 .dropdown {
@@ -43,7 +46,8 @@ body{
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -99,14 +103,129 @@ body{
     box-sizing: border-box;
 }
 .main{
-    width: 80%;
+    width: 70%;
     float: left;
+    margin-left: 30px;
 }
+.container-group{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #001935;
+    gap: 22px;   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+}
+.container-posts{
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+    margin: 30px;
+    
+}
+.one{
+    background-color: #ff9999;
+
+}
+.two{
+    background-color: #ffc299;
+
+}
+.three{
+    background-color: #c299ff;
+}
+.four{
+    background-color: #99ff99;
+}
+.five{
+    background-color: #ffff99;
+}
+.six{
+    background-color: #9999ff;
+}
+ul{
+    display: flex;
+    columns: auto auto auto;
+}
+.circle_1{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: red;
+}
+.circle_2{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #ff6600;
+}
+.circle_3{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #6600ff;
+}
+.circle_4{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #00ff00;
+}
+.circle_5{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #ffff00;
+}
+.circle_6{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #0000ff;
+}
+
+
 .menu{
-    width: 20%;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    height: 400px;
+    width: 27%;
+    background-color: rgba(255,255,255,0.07);
     float: right;
+    border-radius: 5px;
+}
+.title-menu{
+    color: white;
+    padding: 7%;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.body-menu{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+
 }
 .footer{
     width: 20%;
     float: right;
+    margin-top: 120px;
+}
+img {
+    width: 70%;
+    height: 80%;
+}
+.posts{
+    width: 30%;
 }
